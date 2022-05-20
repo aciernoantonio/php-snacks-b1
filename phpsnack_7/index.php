@@ -57,7 +57,7 @@ $stundents = [
     <?php for ($i=0; $i < count($stundents); $i++) { ?> 
         <div>
             <div>Studente: <?php echo $stundents[$i]["nome"].' '; echo $stundents[$i]["cognome"]; ?></div>
-            <div>Media: <?php echo array_sum($stundents[$i]["voti"]) / 2 ?></div>
+            <div>Media: <?php echo array_sum($stundents[$i]["voti"]) ?></div>
             <br>
         </div>
     <?php } ?>
